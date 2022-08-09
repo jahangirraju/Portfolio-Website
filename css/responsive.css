@@ -1,0 +1,75 @@
+/* responsive css */
+/* mobile css */
+@media only screen and (max-width: 767px) {
+    .sm-hidden {
+        display: none;
+    }
+
+    .header-banner {
+        flex-direction: column-reverse;
+    }
+
+    .contener-padding {
+        padding: 10px 15px;
+    }
+
+    .contact-box {
+        flex-direction: column;
+    }
+
+    .mobile-navbar {
+        height: 100vh;
+        background: #fff;
+        position: absolute;
+        left: 0px; 
+        top: -16px;
+        text-align: left;
+        display: none;
+    }
+
+    .sidebar-oppen {
+        width: 300px;
+        display: block!important;
+    }
+
+    /* .mobile-navbar img {
+        top: 15px;
+        position: relative;
+        padding: 20px;
+        left: 20px;
+    } */
+
+    .mobile-navbar li {
+        display: block !important;
+    }
+
+    .mobile-navbar li:nth-child(2) {
+        margin-top: 10px;
+    }
+
+    .mobile-navbar li a {
+        display: block !important;
+        padding: 10px;
+        margin: 10px;
+        transition: 0.5s all;
+        border-radius: 20px;
+    }
+
+    .mobile-navbar li a:hover {
+        background-color: rgb(38, 63, 116);
+        color: var(--color-white);
+        border-bottom: 2px solid red;
+    }
+
+    .navbar-toggle {
+        cursor: pointer;
+        display: inline-block;
+    }
+}
+
+/* tablite and destop css*/
+@media only screen and (min-width: 768px) {
+    .md-hidden {
+        display: none;
+    }
+}
